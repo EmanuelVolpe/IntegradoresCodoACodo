@@ -1,0 +1,19 @@
+{
+  "name": "integrado_codo_a_codo",
+  "version": "1.0.1",
+  "description": "repo de Codo a Codo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelVolpe/IntegradoresCodoACodo.git"
+  },
+  "author": "Emanuel Volpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmanuelVolpe/IntegradoresCodoACodo/issues"
+  },
+  "homepage": "https://github.com/EmanuelVolpe/IntegradoresCodoACodo#readme"
+}

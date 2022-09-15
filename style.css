@@ -1,0 +1,26 @@
+.fila {
+    height: 500px;
+}
+
+
+.buenosaires {
+    background-image: url('./images/ba1.jpg');
+    background-size: auto;
+    height: 100vh;
+    filter: brightness(60%);
+}
+
+.img_oradores {
+    width: auto;
+    height: 300px;
+}
+
+.brillo {
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.centrado {
+    margin: auto;
+    text-align: center;
+}
