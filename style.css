@@ -85,6 +85,11 @@ nav div ul {
 #foto {
     margin: 0 !important;
     width: 50% !important;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    object-fit: contain;
+    background-image: url('./images/honolulu.jpg');
 }
 
 #formulario {
