@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.fila {
+    height: 500px !important;
+    width: 100%;
+}
+
+.img_oradores {
+    width: auto;
+    height: 300px;
+}
+
+.brillo {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: black 0.1em 0.1em 0.2em !important;
+    filter: brightness(3);
+}
+
+.centrado {
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(8, 63, 77) !important;
+    font-weight: bold;
+    justify-content: center;
+}
+
+nav div ul li a {
+    color: white !important;
+    margin-right: 100px;
+}
+
+nav div ul {
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+
+.btn-success {
+    background-color: rgb(76, 179, 50) !important;
+    border: 0px;
+}
+
+.fondo {
+    background-color: rgb(250, 244, 236);
+}
+
+
+.alineado {
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+#conferencia {
+    background-position: center center;
+    color: white !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/ba1.jpg');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    object-fit: contain;
+}
+
+#lugarYFecha {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#octubre {
+    background-color: rgb(59, 59, 58);
+    margin: 0 !important;
+    width: 50% !important;
+    padding: 40px;
+    text-align: left;
+}
+
+#foto {
+    margin: 0 !important;
+    width: 50% !important;
+}
+
+#formulario {
+    height: 450px !important;
+}
+
+.pega {
+    position: sticky !important;
+}
