@@ -62,7 +62,7 @@ nav div ul {
 #conferencia {
     background-position: center center;
     color: white !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/ba1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ba1.jpg');
     height: 800px;
     width: 100%;
     background-size: cover;
@@ -89,7 +89,7 @@ nav div ul {
     background-position: center center;
     background-size: cover;
     object-fit: contain;
-    background-image: url('./images/honolulu.jpg');
+    background-image: url('../images/honolulu.jpg');
 }
 
 #formulario {
