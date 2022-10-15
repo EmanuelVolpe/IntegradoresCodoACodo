@@ -100,7 +100,8 @@
                         required>
                 </div>
                 <div class="col-3">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido" aria-label="Apellido"
+                        required>
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -108,8 +109,7 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo"
-                        required>
+                    <input type="email" class="form-control" id="correo" placeholder="Correo" required>
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -117,8 +117,8 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3">
-                    <input type="number" id="cantidad" class="form-control" placeholder="Cantidad" aria-label="Cantidad"
-                        required>
+                    <input type="number" min=0 id="cantidad" class="form-control" placeholder="Cantidad"
+                        aria-label="Cantidad" required>
                 </div>
                 <div class="col-3">
                     <select id="categoria" class="form-select" aria-label="Categoría" required>
@@ -133,8 +133,8 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <input style="background-color:rgb(173, 236, 236)" class="form-control" id="salida" type="text"
-                        value="Total a Pagar: $ " aria-label="readonly input example" readonly>
+                    <strong><input style="background-color:rgb(173, 236, 236)" class="form-control" id="salida"
+                            type="text" value="Total a Pagar: $ " aria-label="readonly input example" readonly></strong>
                 </div>
                 <div class="col-3"></div>
             </div>
