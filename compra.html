@@ -49,7 +49,7 @@
     <!-- SECCION CARDS -->
     <div class="row">
         <div class="col d-flex justify-content-center">
-            <div class="col-sm-2" style="margin-right:1rem; text-align: center;">
+            <div class="col-sm-2" style="margin-right:0.5rem; text-align: center;">
                 <div class="card border-primary">
                     <div class="card-body">
                         <h4 class="card-title"><strong>Estudiante</strong></h4>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2" style="margin-right:1rem; text-align: center;">
+            <div class="col-sm-2" style="margin-right:0.5rem; text-align: center;">
                 <div class="card border-info">
                     <div class="card-body">
                         <h4 class="card-title"><strong>Trainee</strong></h4>
@@ -92,14 +92,15 @@
             </div>
         </div>
         <br>
-        <form class="container-fluid text-center">
+        <form class="container-fluid text-center" action="./enviado.html" method="post">
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" aria-label="Nombre"
+                        required>
                 </div>
                 <div class="col-3">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -107,7 +108,8 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo"
+                        required>
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -115,13 +117,14 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3">
-                    <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad">
+                    <input type="number" id="cantidad" class="form-control" placeholder="Cantidad" aria-label="Cantidad"
+                        required>
                 </div>
                 <div class="col-3">
-                    <select class="form-select" aria-label="Categoría">
-                        <option selected>Estudiante</option>
-                        <option value="1">Trainee</option>
-                        <option value="2">Junior</option>
+                    <select id="categoria" class="form-select" aria-label="Categoría" required>
+                        <option value="Estudiante" selected>Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
                     </select>
                 </div>
                 <div class="col-3"></div>
@@ -130,8 +133,8 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <input style="background-color:rgb(173, 236, 236)" class="form-control" type="text"
-                        value="Total a Pagar: $" aria-label="readonly input example" readonly>
+                    <input style="background-color:rgb(173, 236, 236)" class="form-control" id="salida" type="text"
+                        value="Total a Pagar: $ " aria-label="readonly input example" readonly>
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -139,15 +142,16 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3">
-                    <button type="submit" class="col-12 btn btn-success">Borrar</button>
+                    <button type="reset" id="btnBorrar" class="col-12 btn btn-success">Borrar</button>
                 </div>
                 <div class="col-3">
-                    <button type="submit" class="col-12 btn btn-success">Resumen</button>
+                    <button type="submit" id="btnEnviar" class="col-12 btn btn-success">Resumen</button>
                 </div>
                 <div class="col-3"></div>
             </div>
         </form>
     </div>
+
 
     <!-- SECCION FOOTER -->
     <!-- <div class="col-12 col-lg-12 d-flex text-white bg-dark "> -->
@@ -190,6 +194,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <script src="./js/js.js"></script>
 </body>
 
 </html>
