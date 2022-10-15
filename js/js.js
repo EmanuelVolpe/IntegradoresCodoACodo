@@ -1,16 +1,11 @@
 document.addEventListener('DOMContentLoaded', (event) => {
 
-    const nombre = document.querySelector('#nombre');
     const categoria = document.querySelector('#categoria');
     const btnEnviar = document.querySelector('#btnEnviar');
-    const btnBorrar = document.querySelector('#btnBorrar');
     const DESC_ESTUDIANTE = 0.8;
     const DESC_TRAINEE = 0.5;
     const DESC_JUNIOR = 0.15;
     const VALOR_UNITARIO = 200;
-    console.log(document.querySelector('#cantidad').value);
-    console.log(document.querySelector('#categoria').value);
-    //const parrafo = document.querySelector('#parrafo');
 
     btnEnviar.addEventListener('click', function (e) {
         e.preventDefault();
