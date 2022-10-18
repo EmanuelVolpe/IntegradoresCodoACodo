@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const cantidad = Number(document.querySelector('#cantidad').value);
 
         if (nombre === '' || apellido === '' || correo === '' || cantidad === '') {
-            alert('Falta completar algún dato')
+            alert('Falta completar algún dato');
             return false;
         }
         return true;
