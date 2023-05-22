@@ -8,20 +8,20 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./styles/bootstrap.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Bootstrap demo</title>
+    <title>Codo a Codo | Emanuel</title>
 </head>
 
 <body style="position: relative; padding-bottom: 3em; min-height: 100vh;">
     <!-- SECCION NAVBAR -->
 
-    <div class="container-fluid text-white bg-dark sticky-top">
+    <div class="container-fluid text-white sticky-top navega">
         <div class="row">
             <div class="col-3">
-                <img src="./images/codoacodo.png" alt="Logo" width="auto" height="60px" class="text-white bg-dark">Conf
+                <img src="./images/codoacodo.png" alt="Logo" width="auto" height="60px" class="text-white">Conf
                 Bs
             </div>
             <div class="col-9">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark">
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse d-flex justify-content-lg-center">
                             <ul class="navbar-nav">
@@ -51,33 +51,38 @@
 
     <!-- SECCION IMAGEN DE BS AS -->
 
-    <div class="container-fluid" id="conferencia">
-        <div class="row d-flex">
-            <div class="col-8">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="conferencia">
+                <img src="./images/ba1.jpg" class="d-block w-100" style="height: 100%; object-fit: cover;">
             </div>
-            <div class="col-4 alineado">
-                <h2 class="brillo">Bs As Octubre</h2>
-                <p class="brillo">
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipisicing
-                    elit. Expedita eveniet
-                </p>
-                <p class="brillo">
-                    temporibus itaque odit
-                    quis blanditiis amet dolore fuga a?
-                    Dolores harum voluptas vero
-                    ducimus aliquam deleniti
-                    doloremque est alias rerum.
-                    Lorem ipsum dolor
-                </p>
-                <p class="brillo">
-                    sit amet consectetur adipisicing elit. Laboriosam,
-                    est praesentium sint fuga qui, libero rem facere
-                    incidunt expedita aliquam commodi tempore quo
-                </p>
-                <div>
-                    <button type="button" class="btn btn-outline-light btn-inline">Quiero ser orador</button>
-                    <button type="button" class="btn btn-success">Comprar Tickets</button>
+            <div class="row d-flex">
+                <div class="col-8">
+                </div>
+                <div class="col-4 alineado">
+                    <h2 class="brillo">Bs As Octubre</h2>
+                    <p class="brillo">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing
+                        elit. Expedita eveniet
+                    </p>
+                    <p class="brillo">
+                        temporibus itaque odit
+                        quis blanditiis amet dolore fuga a?
+                        Dolores harum voluptas vero
+                        ducimus aliquam deleniti
+                        doloremque est alias rerum.
+                        Lorem ipsum dolor
+                    </p>
+                    <p class="brillo">
+                        sit amet consectetur adipisicing elit. Laboriosam,
+                        est praesentium sint fuga qui, libero rem facere
+                        incidunt expedita aliquam commodi tempore quo
+                    </p>
+                    <div>
+                        <button type="button" class="btn btn-outline-light btn-inline">Quiero ser orador</button>
+                        <button type="button" class="btn btn-success">Comprar Tickets</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,11 +114,10 @@
                             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                             React
                         </button>
-                        <div class="card-body">
+                        <div>
                             <h5 class="card-title"><strong>Steve Jobs</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-                                ullam itaque debitis doloremque blanditiis nisi ducimus accusantium nemo quisquam ut
-                                eius necessitatibus maiores minima, nesciunt iusto quo quam numquam nulla?
+                                ullam itaque debitis doloremque blanditiis nisi ducimus accusantium nemo quisquam.
                             </p>
                         </div>
                     </div>
@@ -131,11 +135,10 @@
                             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                             React
                         </button>
-                        <div class="card-body">
+                        <div>
                             <h5 class="card-title"><strong>Bill Gates</strong></h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-                                ullam itaque debitis doloremque blanditiis nisi ducimus accusantium nemo quisquam ut
-                                eius necessitatibus maiores minima, nesciunt iusto quo quam numquam nulla?
+                                ullam itaque debitis doloremque blanditiis nisi ducimus accusantium nemo quisquam.
                             </p>
                         </div>
                     </div>
@@ -153,11 +156,10 @@
                             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                             Startups
                         </button>
-                        <div class="card-body">
+                        <div>
                             <h5 class="card-title"><strong>Ada Lovelace</strong></h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-                                ad facere sit reprehenderit! Maiores adipisci incidunt autem minima exercitationem
-                                dicta dolor aspernatur neque libero amet, labore quo ipsam explicabo maxime!
+                                ad facere sit reprehenderit! Maiores adipisci incidunt autem minima exercitationem.
                             </p>
                         </div>
                     </div>
@@ -173,7 +175,7 @@
         <div class="row d-flex g-0">
             <div class="col" id="foto">
             </div>
-            <div class="col" style="color: white; background-color: dimgrey;" id="octubre">
+            <div class="col" id="octubre">
                 <h2>Bs As Octubre</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita eveniet
                     temporibus itaque odit
@@ -238,9 +240,8 @@
     </div>
 
     <!-- SECCION FOOTER -->
-    <!-- <div class="col-12 col-lg-12 d-flex text-white bg-dark "> -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark footer">
-        <div class=" row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
                 <li class=" nav-item">
                     <a class="nav-link">
